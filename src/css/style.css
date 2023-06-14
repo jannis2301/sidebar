@@ -7,6 +7,7 @@
   --max-width: 65rem;
   --main-padding: 1.25rem 4vw;
   --button-size: 3rem;
+  --header-height: 4.125rem;
   --sidebar-width: calc(100vw - 60vw);
   --close-btn-position: 2rem;
   --animation-duration: 0.3s;
@@ -75,10 +76,6 @@ a:focus {
   display: flex;
 }
 
-.main {
-  min-height: 100vh;
-}
-
 .main,
 .wrapper {
   max-width: var(--max-width);
@@ -86,11 +83,21 @@ a:focus {
   margin: 0 auto;
 }
 
+.main {
+  min-height: 100vh;
+}
+
+.introSection {
+  margin-top: var(--header-height);
+}
+
 /* Header */
 
 .header {
   position: fixed;
   width: 100%;
+  top: 0;
+  height: var(--header-height);
   background: var(--nav-bg);
   padding: var(--main-padding);
 }
