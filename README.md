@@ -16,4 +16,5 @@ You are able to close the sidebar, by clicking on the close button.
 
 - HTML
 - CSS
-- JS
+- Typescript
+- Vite
