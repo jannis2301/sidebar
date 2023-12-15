@@ -158,7 +158,6 @@ a:focus {
 .sidebar {
   right: 0;
   width: var(--sidebar-width);
-  border-radius: 5px 0 0 5px;
   transform: translateX(100%);
   transition: transform var(--animation-duration) var(--timing-function);
   z-index: 20;

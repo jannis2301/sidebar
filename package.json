@@ -1,5 +1,16 @@
 {
   "name": "sidebar",
   "private": true,
-  "version": "0.0.0"
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "vite --host",
+    "test": "vitest run",
+    "build": "vite build"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.2",
+    "vite": "^5.0.0",
+    "vitest": "^1.0.4"
+  }
 }
